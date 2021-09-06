@@ -168,6 +168,13 @@ console.log( arr.join( '\n' ) );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/array/linspace`][@stdlib/array/linspace]: generate a linearly spaced numeric array.
+-   [`@stdlib/array/logspace`][@stdlib/array/logspace]: generate a logarithmically spaced numeric array.
+
 </section>
 
 <!-- /.related -->
@@ -230,6 +237,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-datespace/main/LICENSE
 
 [mdn-date-object]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+
+<!-- <related-links> -->
+
+[@stdlib/array/linspace]: https://github.com/stdlib-js/array-linspace
+
+[@stdlib/array/logspace]: https://github.com/stdlib-js/array-logspace
+
+<!-- </related-links> -->
 
 </section>
 
