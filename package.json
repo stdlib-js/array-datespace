@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-datespace",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Generate an array of linearly spaced dates.",
   "license": "Apache-2.0",
   "author": {
