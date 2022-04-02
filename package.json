@@ -1,0 +1,33 @@
+{
+  "name": "@stdlib/array-datespace",
+  "version": "0.0.0",
+  "description": "Generate an array of linearly spaced dates.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/array-datespace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "utilities",
+    "utils",
+    "mathematics",
+    "math",
+    "generic",
+    "array",
+    "matlab",
+    "linear",
+    "date"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
