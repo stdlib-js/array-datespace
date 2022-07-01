@@ -24,32 +24,30 @@ limitations under the License.
 
 > Generate an array of linearly spaced [dates][mdn-date-object].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-datespace
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-datespace = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.datespace;
-})();
-</script>
+var datespace = require( '@stdlib/array-datespace' );
 ```
 
 #### datespace( start, stop\[, length]\[, opts] )
@@ -145,13 +143,8 @@ arr = datespace( 1417503655000, 1417503655001, 3, {
 
 ## Examples
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var datespace = require( '@stdlib/array-datespace' );
 var start;
 var arr;
 var end;
@@ -173,11 +166,6 @@ console.log( arr.join( '\n' ) );
 // Create an array with decremented values:
 arr = datespace( end, start, 11 );
 console.log( arr.join( '\n' ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -264,6 +252,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/array-datespace/tree/deno
 [umd-url]: https://github.com/stdlib-js/array-datespace/tree/umd
 [esm-url]: https://github.com/stdlib-js/array-datespace/tree/esm
+[branches-url]: https://github.com/stdlib-js/array-datespace/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-datespace/main/LICENSE
 
@@ -271,9 +260,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/array/linspace]: https://github.com/stdlib-js/array-linspace/tree/umd
+[@stdlib/array/linspace]: https://github.com/stdlib-js/array-linspace
 
-[@stdlib/array/logspace]: https://github.com/stdlib-js/array-logspace/tree/umd
+[@stdlib/array/logspace]: https://github.com/stdlib-js/array-logspace
 
 <!-- </related-links> -->
 
