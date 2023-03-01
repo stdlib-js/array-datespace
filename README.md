@@ -180,8 +180,8 @@ console.log( arr.join( '\n' ) );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/array/linspace`][@stdlib/array/linspace]</span><span class="delimiter">: </span><span class="description">generate a linearly spaced numeric array.</span>
--   <span class="package-name">[`@stdlib/array/logspace`][@stdlib/array/logspace]</span><span class="delimiter">: </span><span class="description">generate a logarithmically spaced numeric array.</span>
+-   <span class="package-name">[`@stdlib/array-linspace`][@stdlib/array/linspace]</span><span class="delimiter">: </span><span class="description">generate a linearly spaced numeric array.</span>
+-   <span class="package-name">[`@stdlib/array-logspace`][@stdlib/array/logspace]</span><span class="delimiter">: </span><span class="description">generate a logarithmically spaced numeric array.</span>
 
 </section>
 
