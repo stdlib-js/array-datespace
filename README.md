@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import datespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-datespace/tags). For example,
+
+```javascript
 import datespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@v0.1.0-esm/index.mjs';
 ```
 
@@ -144,7 +149,7 @@ arr = datespace( 1417503655000, 1417503655001, 3, {
 <body>
 <script type="module">
 
-import datespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@v0.1.0-esm/index.mjs';
+import datespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@esm/index.mjs';
 var start;
 var arr;
 var end;
