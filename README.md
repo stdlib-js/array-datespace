@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import datespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@deno/mod.js';
+import datespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@v0.1.0-deno/mod.js';
 ```
 
 #### datespace( start, stop\[, length]\[, opts] )
@@ -139,7 +139,7 @@ arr = datespace( 1417503655000, 1417503655001, 3, {
 ## Examples
 
 ```javascript
-import datespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@deno/mod.js';
+import datespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@v0.1.0-deno/mod.js';
 var start;
 var arr;
 var end;
