@@ -44,7 +44,7 @@
     "@stdlib/math-base-special-ceil": "^0.1.1",
     "@stdlib/math-base-special-floor": "^0.1.1",
     "@stdlib/math-base-special-round": "^0.1.1",
-    "@stdlib/string-format": "^0.1.1"
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-array": "^0.1.1",
