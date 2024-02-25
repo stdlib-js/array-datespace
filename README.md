@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import datespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-datespace/tags). For example,
+
+```javascript
 import datespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@v0.2.1-deno/mod.js';
 ```
 
@@ -143,7 +148,7 @@ arr = datespace( 1417503655000, 1417503655001, 3, {
 ## Examples
 
 ```javascript
-import datespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@v0.2.1-deno/mod.js';
+import datespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@deno/mod.js';
 var start;
 var arr;
 var end;
