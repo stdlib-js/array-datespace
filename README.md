@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import datespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@esm/index.mjs';
+import datespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@v0.2.2-esm/index.mjs';
 ```
 
 #### datespace( start, stop\[, length]\[, opts] )
@@ -148,7 +148,7 @@ arr = datespace( 1417503655000, 1417503655001, 3, {
 <body>
 <script type="module">
 
-import datespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@esm/index.mjs';
+import datespace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-datespace@v0.2.2-esm/index.mjs';
 var start;
 var arr;
 var end;
