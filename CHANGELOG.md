@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-19)
+## Unreleased (2026-10-12)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`8f62240`](https://github.com/stdlib-js/stdlib/commit/8f622403b8f6ff3781a17dc7ceb077e341e91aa3) - **docs:** clean-up [(#16084)](https://github.com/stdlib-js/stdlib/pull/16084) _(by Philipp Burckhardt)_
 -   [`3901886`](https://github.com/stdlib-js/stdlib/commit/3901886ff5ff6bdbcfd65ea52109fee0b0e1ff03) - **docs:** fix examples and descriptions in top-level `array` declarations [(#12375)](https://github.com/stdlib-js/stdlib/pull/12375) _(by Philipp Burckhardt, Athan Reines)_
 -   [`00885d3`](https://github.com/stdlib-js/stdlib/commit/00885d3e6afd8118ce2b6e5f7a1c544d5b6d4ffb) - **bench:** refactor to use string interpolation in `array` [(#11411)](https://github.com/stdlib-js/stdlib/pull/11411) _(by Karan Anand, Athan Reines)_
 
